@@ -7,6 +7,7 @@ a {
 
   body {
     font-family: 'Arima Madurai', cursive;
+    
   }
   
   header {
@@ -51,17 +52,17 @@ a {
 
  h4 {
     color: #E8DAEF;
-    font-size: 5mm;
- }
+    font-size: 6mm;
+  }
   p {
     font-family: 'Alegreya Sans', sans-serif;
     color:#52524E ;
     font-size: 5mm;
-    margin-right: 60px;
-    margin-left: 60px;
-    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
   }
-
+  
   img {
     max-width: 100%;
     max-height: 100%;
