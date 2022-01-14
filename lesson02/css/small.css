@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Arima+Madurai&display=swap');
+
+a {
+    color: #52524E;
+    font-family: 'Arima Madurai', cursive;
+  }
+
+  body {
+    font-family: 'Arima Madurai', cursive;
+    background-color: #928BEC;
+  }
+  
+  header {
+    background-color:#5D4283;
+    color: #E8DAEF;
+    padding-bottom: 2px;
+    padding-top: -5px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 4.5mm;
+  }
+  main {
+    display: grid;
+    margin: auto;
+  }
+  section {
+    background-color: #DDC7FC;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+  }
+  h1 {
+    padding-top: 25px;
+    text-align: center;
+    margin-bottom: -10px;
+    
+  }
+
+  h2 {
+      margin-top: 0px;
+      border-radius: 5px;
+      background-color: #5D4283;
+      color: #E8DAEF;
+      font-size: 5mm;
+      justify-content: space-evenly;
+  }
+  h3 {
+    color: #5D4283;
+    font-size: 5mm;
+  }
+
+ h4 {
+    color: #E8DAEF;
+    font-size: 7mm;
+  }
+  p {
+    font-family: 'Alegreya Sans', sans-serif;
+    color:#52524E ;
+    font-size: 5mm;
+    text-align:left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 95%;
+    height: auto;
+
+  }
+  footer {
+    background-color: #E8DAEF;
+    color: rgb(10, 7, 0);
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+  }
