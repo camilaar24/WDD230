@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Sarala:wght@700&display=swap');
+
+a {
+    color: #FAEDCD;
+  }
+  
+  li a:hover {
+    background-color: #9EAD5A;
+  }
+  header {
+    background-color: #DAE3AA;
+    padding-bottom: 22px;
+    color: #879950;
+    font-family: 'Sarala', sans-serif;
+     background-image: url("https://github.com/camilaar24/WDD230/blob/main/lesson03/images/background.png?raw=true");
+  
+  }
+  body {
+    font-family:'Quicksand', sans-serif;
+    background-color: #9EAD5A;
+    color: #494A40;
+    margin: 150px;
+    background-image: url("https://github.com/camilaar24/WDD230/blob/main/lesson03/images/background.png?raw=true");
+    
+  }
+  main {
+    display: grid;
+    margin: auto;
+  }
+  section {
+    background-color:#9EAD5A;
+    border-radius: 5px;
+    text-align: left;
+    
+  }
+  
+  h1 {
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+  }
+  
+  h3, h2{  
+    color:#FAEDCD ;
+    padding-left: 8px;
+    text-align: left;
+ }
+
+h4{
+   color:#FAEDCD ;
+   padding-bottom: 10px;
+   text-align: center;
+}
+  h5 {
+  text-align: center;
+  font-size: 20px; 
+  color:#FAEDCD;
+}
+
+  nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #A16F57;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+ nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+  }
+ 
+ img {
+    height: 300px;
+    width: auto;
+    align-self: center;
+    }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+  #colorone {
+    background-color: brown;
+    width: 50%;
+    box-shadow: 0 2px 15px black;
+  }
+  
+  #colortwo {
+    background-color: #FBE5B1;
+    width: 50%;
+  }
+  
+  #colorthree {
+    background-color: #DF6101;
+    width: 50%;
+  }
+  
+  #colorfour {
+    background-color: #AADDCC;
+    color: #001F29;
+    width: 50%;
+    box-shadow: 0 2px 15px black;
+  }
+  
+  footer {
+    background-color: #A16F57;
+    color: #DAE3AA ;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 55px;
+  }
+  
+  div {
+    text-align: center;
+  }
