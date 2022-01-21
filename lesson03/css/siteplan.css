@@ -91,27 +91,38 @@ h4{
 }
 
   #colorone {
-    background-color: brown;
+    background-color: #9EAD5A;
     width: 50%;
     box-shadow: 0 2px 15px black;
   }
   
   #colortwo {
-    background-color: #FBE5B1;
-    width: 50%;
-  }
-  
-  #colorthree {
-    background-color: #DF6101;
-    width: 50%;
-  }
-  
-  #colorfour {
-    background-color: #AADDCC;
-    color: #001F29;
+    background-color: #DAE3AA;
     width: 50%;
     box-shadow: 0 2px 15px black;
   }
+  
+  #colorthree {
+    background-color: #A16F57;
+    width: 50%;
+    color: #DAE3AA ;
+    box-shadow: 0 2px 15px black;
+  }
+  
+  #colorfour {
+    background-color: #494A40;
+    color: #DAE3AA;
+    width: 50%;
+    box-shadow: 0 2px 15px black;
+  }
+#colorfive {
+    background-color: #FAEDCD;
+    color: #494A40;
+    width: 50%;
+    box-shadow: 0 2px 15px black;
+  }
+ 
+
   
   footer {
     background-color: #A16F57;
