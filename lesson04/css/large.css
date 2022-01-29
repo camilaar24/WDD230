@@ -100,5 +100,7 @@
     
     .info p {
         display: inline;
+        background-color: var(--primary-color);
+        color: #494A40;
     }
     }
