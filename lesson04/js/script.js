@@ -6,8 +6,6 @@ window.onload = function() {
 
     const x = document.getElementById('hamburgerBtn');
     x.onclick = toggleMenu;
-
-    // Footer
     let lastModified = document.lastModified;
     
     document.getElementById('lastUpdate').textContent = (`Last modification: ${lastModified}`);
