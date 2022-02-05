@@ -133,21 +133,8 @@ main div {
 
 .join {
     display: none;
+  backroung: red;
 }
-#join2button {
-    color:#494A40;
-    background-color: #FAEDCD;
-    border-color: #494A40;
-    padding: 10px 8px;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    position: absolute;
-    font-size: 16px;
-    top: 100px;
-    border-radius: 8px;
-}
-
 
 .hero {
     position: relative;
@@ -259,14 +246,51 @@ h2 {
 .spotlights {
     display: grid;
     grid-template-columns: 1fr;
+    
 }
 .spotlights a {
     margin-left: 2em;
 }
 
+.grow{
+   grid-row: 1/2;
+   padding: .5em;
+  text-align: center;
+  background-color:var(--primary-color);
+}
+
+.grow img{
+  width: 40%;
+  height: 40%;
+}
+
+.grow h2 {
+    color:  #9EAD5A;
+    text-shadow: 2px 2px #FAEDCD;
+ 
+}
+
+.honey{
+  grid-row: 2/3;
+  padding: .5em;
+  text-align: center;
+  background-color:var(--primary-color);
+}
+
+.honey img{
+  width: 30%;
+  height: 25%;
+}
+
+.honey h2 {
+    color:  #9EAD5A;
+    text-shadow: 2px 2px #FAEDCD;
+ 
+}
+
 
 footer {
-    background-color: var(--primary-color);
+    background-color: #9EAD5A;
     color: #494A40;
     text-align: center;
     padding: 5px 10px 5px 10px;
