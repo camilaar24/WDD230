@@ -102,7 +102,7 @@ nav ul.open {display:block;}
 
 .socials img {
     max-width: 1.6rem;
-  
+    max-height: 1.6rem;
 }
 
 .date {
@@ -117,11 +117,11 @@ nav ul.open {display:block;}
     color: black;
 }
 
-
 main {
     
     display: grid;
     grid-gap: 1em;
+    margin-left: 11em;
 }
 
 main div {
@@ -173,50 +173,11 @@ main div {
     font-family:'Quicksand', sans-serif;
   }
   
+ 
   .container img {
     width: 100%;
   }
-  
-  .sub-heading {
-    margin-top: -10%;
-    margin-left: 5%;
-    font-style: italic;
-    font-size: .9em;
-    letter-spacing: 1pt;
-    color: #DF6101;
-  }
-  
-  nav {
-    margin: 0 auto;
-    background-color: #DF6101;
-    box-shadow: 0 2px 15px burlywood;
-  }
-  .navigation {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-  }
-  
-  .navigation li:first-child {
-    display: block;
-  }
-  
-  .navigation li {
-    display: none;
-  }
-  
-  .navigation a {
-    display: block;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  .navigation a:hover {
-    background-color: whitesmoke;
-    box-shadow: 0 2px 15px burlywood;
-  }
-  
+
   .responsive li {
     display: block;
   }
