@@ -263,7 +263,7 @@ form {
 .cardSection {
     margin: 0.25rem;
     padding: 0.35rem;
-    border: 1px solid #073B5E;
+    border: 1px solid #494A40;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -280,6 +280,7 @@ form {
 .cardSection h2 {
     font-size: 1rem;
     text-align: center;
+    
 }
 
 .dirButtons {
@@ -303,7 +304,7 @@ button.listBtn, button.gridBtn {
 }
 
 tr:nth-child(even) {
-    background-color: #666;
+    background-color: #494A40;
 }
 
 td {
@@ -312,7 +313,7 @@ td {
 }
 .dirBox h2 {
     margin-left: .7em;
-    color: #073B5E;
+    color: #494A40;
     text-shadow: none;
 }
 .cards h2, .lists h2 {
