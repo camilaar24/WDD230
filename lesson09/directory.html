@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>WDD230 Evergreen</title>
+  <!--Favicon-->
+    <link rel="icon" href="https://github.com/camilaar24/WDD230/blob/main/lesson05/images/Evergreen.png?raw=true">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="https://camilaar24.github.io/WDD230/lesson05/chamber"> <img src="https://github.com/camilaar24/WDD230/blob/main/lesson03/images/logoo.png?raw=true" alt="Website logo"></a>
+            <div class="header">
+                <h1>Evergreen</h1>
+                <div class="motto">Chamber
+                </div>
+            </div>
+        </div>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>&#10005;</span></button>
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="socials">
+            <a href="#"><img src="https://github.com/camilaar24/WDD230/blob/main/lesson04/images/facebook_icon.png?raw=true" alt="Facebook logo"></a>
+            <a href="#"><img src="https://github.com/camilaar24/WDD230/blob/main/lesson04/images/linkedin-logo.png?raw=true" alt="Linkedin logo"></a>
+            
+        </div>
+        <div class="date"><span id="currentDate"></span></div>
+    </header>
+        
+        <main class="dirBox">
+            <h2>Crystal Clear Lake Business Directory</h2>
+            <div class="dirButtons"><button class="gridBtn"> &#10998;&#10998;&#10998; </button><button class="listBtn"> &#10998;&#9776;</button></div>
+            <div class="cards" id="cardToggle"></div>
+            <div class="lists" id="listToggle"><div class="listTabs"></div></div>
+        </main>
+        <footer>
+            <footer>
+                <div class="footer-1">
+                    <img src="https://github.com/camilaar24/WDD230/blob/main/lesson03/images/logoo.png?raw=true" alt="Website logo">
+                        <h2>Evergreen Chamber</h2>
+                        <p>Columbia, MD</p>
+                </div>
+                <div class="final-info">
+                    <p>info@evergreen.org</p>
+                    <p>+1 (223) 2070-2300</p>
+                    <div class="footer-location">📍 Location Map</div>
+                    <hr>
+                    <p>© <span id="currentYear"></span> 2022 | Camila Romero | Maryland | WDD 230 | <a href="https://www.byui.edu/online">BYUI Online
+                Learning </a></p>
+                    <p id="lastUpdate"></p>
+                </div>
+            </footer>
+            <script src="js/script.js"></script>
+            <script src="js/directory.js"></script>
+            <script src="js/index.js"></script>
+        </body>
+        </html>
