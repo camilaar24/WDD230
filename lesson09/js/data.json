@@ -5,7 +5,7 @@
         "logourl": "images/directory/patagonia.webp",
         "address": "3104 M St NW, Washington, DC 20007",
         "phone": 8086386464,
-        "website": "https://www.patagonia.com/home/"
+        "website": "https://www.patagonia.com/"
       },
       {
         "companyname": "PELA",
@@ -54,7 +54,7 @@
         "logourl": "images/directory/7thgeneration.webp",
         "address": "60 Lake Street Burlington, VT 5218 USA",
         "phone": 8002114279,
-        "website": "https://www.seventhgeneration.com/home"
+        "website": "https://www.seventhgeneration.com/"
       },
       {
         "companyname": "Ecoriginals",
@@ -71,11 +71,18 @@
         "website": "https://periodaisle.com/"
       },
       {
-        "companyname": "Ecoriginals",
-        "logourl": "https://picsum.photos/id/268/300/400",
-        "address": "127-129 Bulimba St, Morningside",
-        "phone": 8556460542,
-        "website": "https://ecoriginals.com/"
+        "companyname": "Preserve",
+        "logourl": "images/directory/preserve.webp",
+        "address": "2841 New Glasgow Road New Glasgow, PE",
+        "phone": 8883547296,
+        "website": "https://www.preserve.eco/"
+      },
+      {
+        "companyname": "PELA",
+        "logourl": "images/directory/pela.webp",
+        "address": "604-460 Doyle Ave Kelowna, British Columbia V1Y 0C2 Canada",
+        "phone":  2487657785,
+        "website": "https://pelacase.com/"
       }
     ]
 }
