@@ -204,11 +204,12 @@ h2 {
 
 .weather {
     text-align: center;
-    padding-bottom: 2em;
-    padding: 1em;
+    padding: 2em;
+    justify-self: center;
+    margin: auto;
 }
 .weather p {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .weather h2{
@@ -218,8 +219,8 @@ h2 {
 .weather img {
     margin-left: 1em;
     float: left;
-    width: 37%;
-    height: 34%;
+    min-width: 100px;
+   
 }
 
 .weather span:nth-child(1) {

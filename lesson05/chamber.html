@@ -55,12 +55,16 @@
       
       <div class="weather"><h2>Weather</h2>
       
-      <img src="https://www.freeiconspng.com/thumbs/weather-icon-png/weather-icon-png-8.png" alt="weather image">
- <p>33° C</p>
- <p>Partly Cloudy</p>
- <p><span>Wind Speed: 2.5 Km/h</span> </p>
- <p><span>Wind Chill: N/A</span></p>
-          </div>
+        <figure>
+        <img src="" alt="" id="weathericon" /> 
+        </figure>
+        <figure>
+        <p>Temperature:<span id="current-temp"></span> &deg;F</p>
+        </figure>
+        <p>Wind Speed: <span id="windspeed"></span>Km/h</p>                
+        <p>Wind Chill: <span id="windchill"></span>&deg;C</p>
+  
+        </div>
       
         <div class="new-release">
           <h2>New Release</h2>
@@ -107,5 +111,6 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
