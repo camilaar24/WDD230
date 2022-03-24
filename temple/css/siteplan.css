@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Sarala:wght@700&display=swap');
+
+a {
+    color: #FAEDCD;
+  }
+  
+  li a:hover {
+    background-color: #C9ADA7;
+    color: #4A4E69;
+    
+  }
+  header {
+    
+    color: #4A4E69;
+    font-family: 'Sarala', sans-serif;
+     
+  }
+  body {
+    font-family:'Quicksand', sans-serif;
+    background-color: white;
+    color: #22223B;
+    margin: 150px;
+    
+  }
+  main {
+    display: grid;
+    margin: auto;
+  }
+  section {
+    background-color:white;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 50px;
+    
+  }
+  
+  h1 {
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+  }
+  
+  h3, h2{  
+    color: #C9ADA7;
+    text-align: left;
+    font-size: 25px; 
+ }
+
+h4{
+   color:#9A8C98;
+   padding-bottom: 10px;
+   text-align: center;
+   font-size: 25px; 
+}
+  h5 {
+  text-align: center;
+  font-size: 20px; 
+  color:orange;
+}
+
+  nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #4A4E69;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+ nav ul li a {
+    display: block;
+    color: #F2E9E4;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+  }
+ 
+ img {
+    height: 300px;
+    width: auto;
+    align-self: center;
+    }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: auto;
+
+}
+
+  #colorone {
+    background-color: blue;
+    width: 50%;
+    box-shadow: 0 2px 15px black;
+  }
+  
+  #colortwo {
+    background-color: red;
+    width: 50%;
+    box-shadow: 0 2px 15px black;
+  }
+  
+  #colorthree {
+    background-color: pink;
+    width: 50%;
+    color: #DAE3AA ;
+    box-shadow: 0 2px 15px black;
+  }
+  
+  #colorfour {
+    background-color: #494A40;
+    color: #DAE3AA;
+    width: 50%;
+    box-shadow: 0 2px 15px black;
+  }
+#colorfive {
+    background-color: orange;
+    color: #494A40;
+    width: 50%;
+    box-shadow: 0 2px 15px black;
+  }
+ 
+
+  
+  footer {
+    background-color: #4A4E69;
+    color: #F2E9E4 ;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 55px;
+  }
+  
+  div {
+    text-align: center;
+  }
