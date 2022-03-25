@@ -19,22 +19,20 @@ a {
     font-family:'Quicksand', sans-serif;
     background-color: white;
     color: #22223B;
-    margin: 150px;
-    margin-top: 50px;
-  
-    
+    margin: 150px; 
   }
+
   main {
     display: grid;
     margin: auto;
   }
-  section {
-    background-color:white;
-    border-radius: 5px;
-    text-align: left;
-    margin-top: 50px;
+
+section {
     
-  }
+    border-radius: 5px;
+    text-align: left;  
+    padding-top: 200px;
+}
   
   h1 {
     padding-top: 15px;
@@ -54,20 +52,20 @@ h4{
    text-align: center;
    font-size: 25px; 
 }
-  h5 {
+h5 {
   text-align: center;
   font-size: 25px; 
   color:#9A8C98;
 }
 
-  nav {
+nav {
     width: 100%;
     margin: 0 auto;
     background-color: #4A4E69;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-  }
+}
 
  nav ul li a {
     display: block;
