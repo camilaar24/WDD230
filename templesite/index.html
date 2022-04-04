@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="description" content="Book a hotel with Hotel Inn and Suites">
+    <meta name="keywords" content="Hotel,Motel,Inn,Suites,Suite,Book A Room,Free WiFi">
+    <title>Temple Inn & Suites</title>
+    <link rel="stylesheet" type="text/css" href="css/large.css">
+    <link rel="stylesheet" type="text/css" href="css/small.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/">
+
+</head>
+
+<body>
+    <div class="stickIt">
+        <!-- Header -->
+        <header>
+            <div class="headerLeft">
+                <a href="index.html"><img id="siteLogo" src="https://github.com/camilaar24/WDD230/blob/main/temple/Images_Temple/logoSignature.png?raw=true" alt="Temple Inn & Suites"></a>
+            </div>
+            
+        </header>
+        <!-- Navigation -->
+        <nav>
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="navigation hide">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a id="endNav" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+
+    <!-- Hero Image -->
+    <div class="containerMain" id="homeContent">
+        <div class="heroContainer">
+            <picture>
+                <source media="(max-width: 415px)" srcset="https://github.com/camilaar24/WDD230/blob/main/templesite/imagests/istockphoto-1066999762-612x612.jpeg?raw=true">
+                <source media="(min-width: 416px)" srcset="https://github.com/camilaar24/WDD230/blob/main/templesite/imagests/istockphoto-1066999762-612x612.jpeg?raw=true">
+                <img id="backgroundHeroImage" src="https://github.com/camilaar24/WDD230/blob/main/templesite/imagests/istockphoto-1066999762-612x612.jpeg?raw=true" alt="room - book now">
+            </picture>
+            <a href="reservation.html" class="bookNowBtn">Book Now</a>
+        </div>
+
+        <main>
+            <!-- Welcome Text -->
+            <div id="mainWelcome">
+
+                <div id="welcomeText">
+                    <h1>Temple Inn & Suites</h1>
+                    <p id="welcomeSubTitle">Doing work for the dead can be exhausting, let us help <strong>YOU</strong>
+                        rest in peace!</p>
+                    <p>The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world. The owner-operated company caters to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons.  If you have
+                        any questions please give us a call, 245.542.2542. We are ready to help, and we are looking
+                        forward to your stay with us. If you are ready set up your reservation you can do so <a href="reservation.html">here</a>.</p>
+                    <p>Temple Inn & Suites caters to temple workers, patrons, and their families by providing
+                        specialized service and accomodations that meet the needs of those patrons. These hotel
+                        accomodations and services are available to anyone willing to abide by the terms and policies
+                        outlined by our company.</p>
+                    <p>Thank you!</p>
+                </div>
+
+                <div id="mainImgDiv">
+                    <picture>
+                        
+                        <source media="(min-width: 416px)" srcset="https://github.com/camilaar24/WDD230/blob/main/templesite/imagests/lobby.jpeg?raw=true">
+                        <img id="backgroundImage" src="https://github.com/camilaar24/WDD230/blob/main/templesite/imagests/lobby.jpeg?raw=true" alt="hotel lobby image">
+                    </picture>
+                </div>
+
+            </div>
+
+            <div class="homeMain">
+                <!-- Temple Info -->
+                <div class="templeInfoContainer">
+
+                    <div class="indTempImg">
+                        <h2>Washignton D.C Temple</h2>
+                        <img src="https://github.com/camilaar24/WDD230/blob/main/templesite/imagests/Exterior_0726.jpeg?raw=true" alt="Portland Oregon Temple">
+                    </div>
+
+                    <div class="templeTextContainer">
+                        <div class="mainTempleInfoHome">
+                            <h3>Address</h3>
+                            <p>13600 Kruse Oaks Blvd Lake Oswego OR 97035-8602 United States</p>
+                            <h3>Telephone</h3>
+                            <p>(1) 503-639-7066</p>
+                            <h3>Services</h3>
+                            <p>Clothing rental available</p>
+                            <p>Cafeteria available</p>
+                            <p>No patron housing available</p>
+                            <p>Distribution center nearby</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Amenities Summary -->
+                <section class="amenitiesHome">
+                    <h2>Free Amenities Include</h2>
+                    <ul>
+                        <li>Breakfast</li>
+                        <li>Excersize/workout room</li>
+                        <li>Indoor pool</li>
+                        <li>WiFi high-speed internet access</li>
+                        <li>Smart tvs</li>
+                        <li>Parking</li>
+                        <li>Family history consultation</li>
+                        <li>Family ordinance card services</li>
+                    </ul>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div id="preFooter">
+            <div id="prefootMid">
+
+                
+
+                <div id="bottomfooterinfo">
+
+                    <h4>Temple Inn & Suites</h4>
+
+                    <address>
+                        <div class="footerBzInfo">
+                            <div>
+                                <img src="images/icons/location.png" alt="location icon">
+                            </div>
+                            <div>
+                                <p>4810 Montgomery Ln #500, Bethseda, MD 20814</p>
+                            </div>
+                        </div>
+                    </address>
+
+                    <div class="footerBzInfo">
+                        <img src="images/icons/phone.png" alt="phone icon"><a href="tel:999-999-9999">245.542.2542</a>
+                    </div>
+
+                    <div class="footerBzInfo">
+                        <img src="images/icons/mail.png" alt="mail icon"><a href="mailto:templeinnsuites@tis.com">templeinnsuites@tis.com</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="midfootMid">
+                <div class="iconLinks">
+                    <a href="https://www.facebook.com"><img src="https://github.com/camilaar24/WDD230/blob/main/lesson04/images/facebook_icon.png?raw=true" alt="facebook icon"></a>
+                    
+                    <a href="instagram.com"><img src="https://github.com/camilaar24/WDD230/blob/main/lesson04/images/Instagram_icon.png?raw=true" alt="instagram icon"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bottomFooter">
+            <div>
+                <p>&copy;2022 Temple Inn & Suites | Camila Romero</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+    <!-- My Scripts -->
+    <script src="scripts/togglemenu.js"></script>
+    <script src="scripts/buttons.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+
+</html>
