@@ -1,4 +1,5 @@
 // Copenhagen
+
 var copenRequest = new XMLHttpRequest();
 copenRequest.open('GET', '//api.openweathermap.org/data/2.5/weather?id=' + 2618425 + '&units=imperial&async=true' + '&APPID=44854c54343626da5e75e87135a175f6');
 copenRequest.onload = function () {
@@ -48,7 +49,7 @@ copenRequest.send();
 
 // Johannesburg
 var johanRequest = new XMLHttpRequest();
-johanRequest.open('GET', '//api.openweathermap.org/data/2.5/weather?id=' + 953987 + '&units=imperial&async=true' + '&APPID=44854c54343626da5e75e87135a175f6');
+johanRequest.open('http://dataservice.accuweather.com/locations/v1/cities/search?apikey=xRQ3IfmGR7pjRdc3zAvyCe0cnGM8XxsI&q=Johannesburg&language=en&details=temperature&offset=temperature');
 johanRequest.onload = function () {
 
     var data = JSON.parse(johanRequest.responseText);

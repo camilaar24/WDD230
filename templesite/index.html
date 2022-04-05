@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/small.css">
     <link rel="stylesheet" type="text/css" href="css/medium.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
 
 </head>
 
@@ -29,7 +29,7 @@
             <button onclick="toggleMenu()">&#9776; Menu</button>
             <ul id="primaryNav" class="navigation hide">
                 <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="temple.html">Temple</a></li>
+                <li><a href="temple.html">Temples</a></li>
                 <li><a href="reservation.html">Reservation</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a id="endNav" href="contact.html">Contact</a></li>
@@ -127,7 +127,12 @@
         <div id="preFooter">
             <div id="prefootMid">
 
-                
+                <div id="map">
+                    <iframe title="hotelMainMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.409032436697!2d-77.09900308425124!3d38.983160179557466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1544482533359"
+                        style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <div id="bottomfooterinfo">
 
                 <div id="bottomfooterinfo">
 
@@ -136,20 +141,17 @@
                     <address>
                         <div class="footerBzInfo">
                             <div>
-                                <img src="images/icons/location.png" alt="location icon">
-                            </div>
-                            <div>
                                 <p>4810 Montgomery Ln #500, Bethseda, MD 20814</p>
                             </div>
                         </div>
                     </address>
 
                     <div class="footerBzInfo">
-                        <img src="images/icons/phone.png" alt="phone icon"><a href="tel:999-999-9999">245.542.2542</a>
+                        <a href="tel: 245.542.2542">245.542.2542</a>
                     </div>
 
                     <div class="footerBzInfo">
-                        <img src="images/icons/mail.png" alt="mail icon"><a href="mailto:templeinnsuites@tis.com">templeinnsuites@tis.com</a>
+                       <a href="mailto:templeinnsuites@byui.com">templeinnsuites@byui.com</a>
                     </div>
 
                 </div>
@@ -166,6 +168,14 @@
 
 
         <div class="bottomFooter">
+            <div id="lastUpdate">
+                <p>Last Updated:  </p>
+                <p id="demo"></p>
+                <script>
+                var x = document.lastModified;
+                document.getElementById("demo").innerHTML = x;
+                </script>
+            </div>
             <div>
                 <p>&copy;2022 Temple Inn & Suites | Camila Romero</p>
             </div>
