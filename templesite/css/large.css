@@ -198,6 +198,21 @@
     * Temple Page
     *
     ***************/
+    /**************
+    *  
+    * Services
+    *
+    ***************/
+   
+    .servicesMain {
+      display:inline-block;
+      grid-template-columns: auto auto;
+    }
+
+    #amenitesServices {
+      display: inline-block;
+    }
+
 
 
     /**************
