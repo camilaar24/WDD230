@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="description" content="Book a hotel with Hotel Inn and Suites">
+    <meta name="keywords" content="Hotel,Motel,Inn,Suites,Suite,Book A Room,Free WiFi">
+    <title>Temple Inn & Suites</title>
+    <link rel="stylesheet" type="text/css" href="css/large.css">
+    <link rel="stylesheet" type="text/css" href="css/small.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+</head>
+
+<body>
+    <div class="stickIt">
+        <!-- Header -->
+        <header>
+            <div class="headerLeft">
+                <a href="index.html"><img id="siteLogo" src="https://github.com/camilaar24/WDD230/blob/main/temple/Images_Temple/logoSignature.png?raw=true" alt="Temple Inn & Suites"></a>
+            </div>
+            
+        </header>
+        <!-- Navigation -->
+        <nav>
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="navigation hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li class="active"><a href="services.html">Services</a></li>
+                <li><a id="endNav" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+    <section id="specialServices" class="servicesInfoContainer">
+        <h2>Special Services</h2>
+        <img src="images/services/templeroomOpt.jpg" alt="exercise room dumbells">
+        <ul>
+            <li>Temple themed reception and sitting area</li>
+            <li>Low cost, short term babysitting services for the children of patrons, and a super fun PLAY ROOM!
+            </li>
+
+            <li>Wedding reception hall that can be easily customized with a simple catering menu and kitchen access
+                for food preparation and serving</li>
+            <li>Business center</li>
+        </ul>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenitesServices" class="servicesInfoContainer">
+
+        <h2>Free Amenities</h2>
+        <img src="images/services/poolOpt.jpg" alt="exercise room dumbells">
+        <ul>
+            <li>Breakfast</li>
+            <li>Excersize/workout room</li>
+            <li>Indoor pool</li>
+            <li>WiFi high-speed internet access</li>
+            <li>Smart tvs</li>
+            <li>Parking</li>
+            <li>Family history consultation</li>
+            <li>Family ordinance card services</li>
+            <li>Play room for children</li>
+        </ul>
+    </section>
+
+   
+  
+    
+
+ <!-- Footer -->
+    <footer>
+        <div id="preFooter">
+            <div id="prefootMid"> 
+                <div id="map">
+                    <iframe title="hotelMainMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.409032436697!2d-77.09900308425124!3d38.983160179557466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1544482533359"
+                        style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <div id="bottomfooterinfo">
+
+                    <h4>Temple Inn & Suites</h4>
+
+                    <address>
+                        <div class="footerBzInfo">
+                            
+                            <div>
+                                <p>4810 Montgomery Ln #500, Bethseda, MD 20814</p>
+                            </div>
+                        </div>
+                    </address>
+
+                    <div class="footerBzInfo"> <a href="tel:245.542.2542">245.542.2542</a>
+                    </div>
+
+                    <div class="footerBzInfo">
+                     <a href="mailto:templeinnsuites@byui.com">templeinnsuites@byui.com</a>
+                    </div>
+
+            <div id="midfootMid">
+                <div class="iconLinks">
+                    <a href="https://www.facebook.com"><img src="https://github.com/camilaar24/WDD230/blob/main/lesson04/images/facebook_icon.png?raw=true" alt="facebook icon"></a>
+                    
+                    <a href="instagram.com"><img src="https://github.com/camilaar24/WDD230/blob/main/lesson04/images/Instagram_icon.png?raw=true" alt="instagram icon"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bottomFooter">
+            <div id="lastUpdate">
+                <p>Last Updated:  </p>
+                <p id="demo"></p>
+                <script>
+                var x = document.lastModified;
+                document.getElementById("demo").innerHTML = x;
+                </script>
+            </div>
+            <div>
+                <p>&copy;2022 Temple Inn & Suites | Camila Romero</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+    <!-- My Scripts -->
+    <script src="js/weather.js"></script>
+    <script src="js/togglemenu.js"></script>
+    <script src="js/slidetoggle.js"></script>
+    <script src="js/togglemenu.js"></script>
+    <script src="js/buttons.js"></script>
+   
+</body>
+
+</html>

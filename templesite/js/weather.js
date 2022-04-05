@@ -1,3 +1,5 @@
+//las vegas
+var requestURL= "https://api.openweathermap.org/data/2.5/weather?lat={36.}&lon={lon}&appid={API key";
 // Copenhagen
 
 var copenRequest = new XMLHttpRequest();

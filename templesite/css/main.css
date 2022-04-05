@@ -37,20 +37,15 @@
         width: 100%;
         margin: 0;
         background-color: #F2E9E4;
+        
     }
     #siteLogo {
-        width: 18em;
+        width: 12em;
+        padding-bottom: 0em;
+        margin-right: 70em;
     }
     
 
-    .headerRight a {
-        color: pink;
-    }
-    .headerRight a:hover {
-        color: #527500;
-        text-decoration: overline underline;
-        text-decoration-color: #0B0B0B;
-    }
     .stickIt {
         position: sticky;
         top: 0;
@@ -59,14 +54,16 @@
 
     /* Navigation */
     nav {
-        margin-top: -1em;
+        margin-top: 0em;
         z-index: 15;
         background-color: #4A4E69;
+        
+        
     }
     nav button {
         position: absolute;
         border: none;
-        background: #F2E9E4;
+        background-color: #C9ADA7;
         color: #4A4E69;
         font-weight: bold;
       
@@ -195,8 +192,8 @@
         color: #FFFEFE;
         border-radius: 0.5em;
         -webkit-box-shadow: 2px 8px 16px 2px #4A4E69;
-    -moz-box-shadow: 2px 8px 16px 2px #4A4E69;
-            box-shadow: 2px 8px 16px 2px #4A4E69;
+        -moz-box-shadow: 2px 8px 16px 2px #4A4E69;
+        box-shadow: 2px 8px 16px 2px #4A4E69;
     }
     .heroContainer a:hover {
         background-color: #4A4E69;
@@ -261,19 +258,20 @@
     ***************/
     .templeTitleBox {
         width: 300px;
-        margin: 3em 2em 0 0;
-        padding: 15px;
+        margin: 2em 2em 0 0;
+        padding: 1px;
         background-color: #1f1f1f;
         color: #FFF;
         border-radius: 2%;
     }
     .weatherSumBox {
         max-width: 300px;
-        margin: 3em 2em 0 0;
-        padding: 15px;
-        background-color: #1f1f1f;
+        margin: 4em 2em ;
+        padding: 20px;
+        background-color: #4A4E69;
         color: #FFF;
         border-radius: 2%;
+       
     }
     .weatherSumBox .value {
         color: #4A4E69;
@@ -281,7 +279,7 @@
     
     .weatherInfoLine .label, .weatherInfoLine .value {
         display: inline-block;
-        margin: 2px;
+        margin: 1px;
     }
     .wImageDiv {
         max-width: 100px;
@@ -290,30 +288,27 @@
     
 .templeInfoContainerBox {
     max-width: 300px;
-    margin: 1em;
-    padding-top: 0.5em;
-    padding: 1em;
-    background-color: #4f524a;
-    color: #FFF;
+    margin-left: 5em;
+    align-items: center;
+    background-color: #F2E9E4;
+    color: #4A4E69;
     border-radius: 2%;
 }
-.clickSlideToggle:hover {
-    color: #5c8301;
-    cursor: pointer;
+
+.templeInfoContainer{
+    background-color: #C9ADA7;
+    text-align: center;
+    max-width: 450px;
 }
-#smallViewBtoTop {
-    position: fixed;
-    border-radius: 1em;
-    display: block;
+.clickSlideToggle:hover {
+    
     bottom: 0.5em;
     right: 1.5em;
     border: none;
-    background-color: rgba(92,131,1, 0.5);
+    color: #FFF;
     padding: 0.5em 1em;
     cursor: pointer;
-    -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-    -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-            box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+   
 }
 #smallViewBtoTop:focus {outline:0;}
 
@@ -355,7 +350,7 @@
 }
 .servicesInfoContainer li:before {
     content: "\2022";
-    color: #5c8301;
+    color: #4f524a;
     font-weight: bold;
     display: inline-block; 
     width: 1em;
@@ -370,17 +365,10 @@
 * Reservation Page
 *
 ***************/
-#reservationBackground {
-    background-image: url("../images/reservations/reservationBackground.jpg");
-    background-color: #ccc;
-    background-position:center;
-	background-repeat:no-repeat;
-    background-size:cover; 
-    width:100%;
-}
+
 /* Form Title */
 #reservationTitle {
-    color: rgb(255,254,254);
+    color: #C9ADA7;
 }
 
 /* Form Container */
@@ -409,15 +397,15 @@ input[type=date]::-webkit-outer-spin-button {
     margin: 10px 0;
     background: transparent;
     border: 0;
-    border-bottom: 2px solid rgba(92,131,1, 0.8);
+    border-bottom: 2px solid #4f524a;
     padding: 10px;
-    color: #1f1f1f;
+    color: #22223B;
 }
 .reservationForm .subjArea {
     margin: 10px 0;
     background: transparent;
     border: 0;
-    border-bottom: 2px solid rgba(92,131,1, 0.8);
+    border-bottom: 2px solid #4f524a;
     padding: 5px;
     color: #1f1f1f;
 }
@@ -469,7 +457,7 @@ input::placeholder {
     margin: 10px 0;
     background: transparent;
     border: 0;
-    border-bottom: 2px solid rgba(92,131,1, 0.8);
+    border-bottom: 2px solid #22223B;
     padding: 10px;
     color: rgba(209,213,216,0.7);
 }
@@ -477,7 +465,7 @@ input::placeholder {
     margin: 10px 0;
     background: transparent;
     border: 0;
-    border-bottom: 2px solid rgba(92,131,1, 0.8);
+    border-bottom: 2px solid #22223B;
     padding: 5px;
     color: rgba(209,213,216,0.7);
 }
@@ -501,8 +489,8 @@ input::placeholder {
     box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
 }
 .btn:hover {
-    background: cyan;
-    color: #FFFEFE;
+    background: #22223B;
+    color: #C9ADA7;
     -webkit-box-shadow: 1px 4px 8px 1px rgb(32, 32, 32);
     -moz-box-shadow: 1px 4px 8px 1px rgb(32, 32, 32);
     box-shadow: 1px 4px 8px 1px rgb(32, 32, 32);
@@ -514,12 +502,12 @@ input::placeholder {
 
 input:not([type="submit"]):valid:focus,
 textarea:valid:focus {
-    box-shadow: 0 0 10px orange;   
+    box-shadow: 0 0 10px #4A4E69;   
     outline: 0;
 }
 input:not([type="submit"]):invalid:focus,
 textarea:invalid:focus {
-    box-shadow: 0 0 10px rgba(204, 63, 133, 0.8);   
+    box-shadow: 0 0 10px #C9ADA7;   
     outline: 0;
 }
 
