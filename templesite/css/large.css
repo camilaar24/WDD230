@@ -213,8 +213,6 @@
       display: inline-block;
     }
 
-
-
     /**************
     *  
     * Reservation Page
@@ -224,8 +222,12 @@
     #reservationTitle {
     color: rgb(255,254,254);
     align-self: center;
-    margin-right: 0.5em;
+    margin-right: 5em;
     text-align: center;
+    }
+    
+    .pageTitle{
+      margin-left: 3.5em;
     }
 
     /* Form Container */
@@ -233,7 +235,7 @@
     display: flex;
     max-width: 75%; 
     flex-flow: row;
-    margin-left: -5em;
+    margin-left: -10em;
     }
     .reservationForm {
     margin: 2em;

@@ -45,7 +45,8 @@
         margin-right: 70em;
     }
     
-
+   
+    
     .stickIt {
         position: sticky;
         top: 0;
@@ -273,7 +274,7 @@
        
     }
     .weatherSumBox .value {
-        color: #4A4E69;
+        color: white;
     }
     
     .weatherInfoLine .label, .weatherInfoLine .value {
@@ -426,7 +427,7 @@ input[type=date]::-webkit-outer-spin-button {
 .containerContact{
     display: flex;
     width: 100%;
-    background-color: #d1d5d8;
+    background-color: #F2E9E4;
     margin-bottom: -5em;
     padding-bottom: 2em;
 }
@@ -441,13 +442,13 @@ input[type=date]::-webkit-outer-spin-button {
     margin: 2em;
 }
 .contact-form{
-    background: rgba(31,31,31,0.9);
+    background: #22223B;
     border-radius: 5px;
     display: flex;
     box-shadow: 0 0 10px;
 }
 input::placeholder {
-    color: rgba(209,213,216,0.7);
+    color: #F2E9E4;
 }
 .input-field{
     display: flex;
@@ -456,9 +457,9 @@ input::placeholder {
     margin: 10px 0;
     background: transparent;
     border: 0;
-    border-bottom: 2px solid #22223B;
+    border-bottom: 2px solid #C9ADA7;
     padding: 10px;
-    color: rgba(209,213,216,0.7);
+    color: #F2E9E4;
 }
 .subjArea {
     margin: 10px 0;
@@ -466,7 +467,7 @@ input::placeholder {
     border: 0;
     border-bottom: 2px solid #22223B;
     padding: 5px;
-    color: rgba(209,213,216,0.7);
+    color: #F2E9E4;
 }
 .message textarea{
     height: 100px;
