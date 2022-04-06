@@ -5,21 +5,13 @@ copenRequest.onload = function () {
 
     var data = JSON.parse(copenRequest.responseText);
 
-
         var temp = data.main.temp;
-    
         document.getElementById('curTempCopen').innerHTML = temp + "&deg;F";
-
         var wImg = document.getElementById('wImageCopen');
-
         var myImage = document.createElement('img');
-
-
         myImage.src = 'http://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
         wImg.appendChild(myImage);
-        
         document.getElementById('imgDescriptionCopen').innerHTML = "<p>" + data.weather[0].description + "</p>";
-
         document.getElementById('curDescCopen').innerHTML = "<p>" + data.weather[0].description + "</p>";
 
 };
@@ -37,17 +29,11 @@ johanRequest.onload = function () {
 
         var temp = data.main.temp;
         document.getElementById('curTempJohan').innerHTML = temp + "&deg;F";
-
         var wImg = document.getElementById('wImageJohan');
-
         var myImage = document.createElement('img');
-
-
         myImage.src = 'http://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
         wImg.appendChild(myImage);
-        
         document.getElementById('imgDescriptionJohan').innerHTML = "<p>" + data.weather[0].description + "</p>";
-
         document.getElementById('curDescJohan').innerHTML = "<p>" + data.weather[0].description + "</p>";
 
 };
@@ -65,17 +51,11 @@ vegasRequest.onload = function () {
 
         var temp = data.main.temp;
         document.getElementById('curTempVegas').innerHTML = temp + "&deg;F";
-
         var wImg = document.getElementById('wImageVegas');
-
         var myImage = document.createElement('img');
-
-
         myImage.src = 'http://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
         wImg.appendChild(myImage);
-        
         document.getElementById('imgDescriptionVegas').innerHTML = "<p>" + data.weather[0].description + "</p>";
-
         document.getElementById('curDescVegas').innerHTML = "<p>" + data.weather[0].description + "</p>";
 
 };
@@ -97,9 +77,7 @@ portlandRequest.onload = function () {
         var myImage = document.createElement('img');
         myImage.src = 'http://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
         wImg.appendChild(myImage);
-        
         document.getElementById('imgDescriptionPort').innerHTML = "<p>" + data.weather[0].description + "</p>";
-
         document.getElementById('curDescPort').innerHTML = "<p>" + data.weather[0].description + "</p>";
 
 };

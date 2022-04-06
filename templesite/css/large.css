@@ -198,6 +198,10 @@
     * Temple Page
     *
     ***************/
+    .wImageDiv {
+      max-width: 1em;
+      margin: 0 auto;
+  }
     /**************
     *  
     * Services
