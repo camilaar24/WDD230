@@ -282,7 +282,7 @@
         margin: 1px;
     }
     .wImageDiv {
-        max-width: 100px;
+        max-width: 1em;
         margin: 0 auto;
     }
     

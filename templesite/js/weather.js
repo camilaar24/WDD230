@@ -93,16 +93,8 @@ portlandRequest.onload = function () {
 
         var temp = data.main.temp;
         document.getElementById('curTempPort').innerHTML = temp + "&deg;F";
-       
-
-        var f = 35.74 + 0.6215 * temp -35.75 * Math.pow(wind, 0.16) + 0.4275 * temp * Math.pow(wind, 0.16);
-
-       
         var wImg = document.getElementById('wImagePort');
-
         var myImage = document.createElement('img');
-
-
         myImage.src = 'http://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
         wImg.appendChild(myImage);
         
